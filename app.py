@@ -9,9 +9,9 @@ import streamlit as st
 df = pd.read_csv(r'./diabetes.csv')
 df.groupby(['Outcome']).mean()
 
-from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
+# from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
 # from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
+# from sklearn.linear_model import LogisticRegression
 
 # from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
