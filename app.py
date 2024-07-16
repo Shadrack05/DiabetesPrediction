@@ -6,7 +6,7 @@ import streamlit as st
 # import seaborn as sns
 # import numpy as np
 
-df = pd.read_csv(r'C:\Users\Admin\Downloads\diabetes.csv')
+df = pd.read_csv(r'./diabetes.csv')
 df.groupby(['Outcome']).mean()
 
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, RobustScaler
